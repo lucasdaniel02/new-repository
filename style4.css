@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+.caixa-tudo {
+    height: 100vh;
+    width: 100vw;
+}
+
+.continer-left {
+    
+display: inline-block;
+width: 60%;
+margin-top: 15%;
+padding-left: 120px;
+padding: 40px;
+}
+
+.continer-right {
+    display: inline-block;
+    background-color: rgba(93,93,125,0.20);
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+}
+img {
+    position: relative;
+    top: 20%;
+    right: -25px;
+    max-width: 80%;
+}
+h1 {
+font-weight: 400;
+font-size: 68px;
+line-height: 65px;
+color: #60607e;
+width: 360px;
+}
+
+p {
+    
+    font-size: 25px;
+    line-height: 44px;
+    color: #5D5D7D;
+    opacity: 0.6;
+    margin: 10px 0;
+    width: 570px;
+} 
+button {
+    width: 170px;
+    height: 45px;
+    background: rgb(241, 11, 172);
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: rgb(243, 243, 243);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+button:hover {
+    opacity: .8;
+
+}
+button:active {
+    opacity: .5;
+}
+ a {
+    font-size: 25px;
+    line-height: 38px;
+    color: #555572;
+    margin-right: 40px;
+ }
+
+ a:nth-child(2) {
+        opacity: 0.4;
+
+ }
+
+ a:hover {
+    opacity: .4;
+
+ }
+ a:active {
+    opacity: 0.8;
+ }
+ header {
+    margin: 20px 0 0 55px;
+ }
+
+ @media screen and (max-width: 900px){
+    .continer-left {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .continer-right {
+        display: block;
+        
+        width: 100%;
+        position: static;
+    }
+
+    img {
+        margin-left: 30px;
+        position: static;
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 50px;
+        width: auto;
+        margin: 58px 0 50px;
+        text-align: center;
+    }
+     
+    p {
+        margin: 15px 40px;
+        text-align: center;
+        font-size: 22px;
+        line-height: 35px;
+        width: auto;
+    }
+     button {
+        margin: 0 auto; 
+        display: block;
+     }
+
+
+
+ }
